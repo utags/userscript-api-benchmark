@@ -46,6 +46,10 @@
 
 ![screencapture](https://wsrv.nl/?w=600&url=https://raw.githubusercontent.com/utags/userscript-api-benchmark/main/screencapture/screenshot-2025-12-27-01-12-49.png)
 
+### Stay (Safari) (v2.9.12)
+
+![screencapture](https://wsrv.nl/?w=600&url=https://raw.githubusercontent.com/utags/userscript-api-benchmark/main/screencapture/screenshot-2025-12-27-01-41-13.png)
+
 ### Greasemonkey (v4.13.0)
 
 ![screencapture](https://wsrv.nl/?w=600&url=https://raw.githubusercontent.com/utags/userscript-api-benchmark/main/screencapture/screenshot-2025-12-27-01-13-20.png)
