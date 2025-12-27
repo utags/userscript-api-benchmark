@@ -28,31 +28,217 @@ It is particularly useful for:
 4. Click on **"Run Benchmark"**.
 5. A table will appear overlaying the page with the test results.
 
-## Benchmark Results (Screenshots)
+## Benchmark Results
 
 ### Tampermonkey (v5.4.1)
 
-![screencapture](https://wsrv.nl/?w=600&url=https://raw.githubusercontent.com/utags/userscript-api-benchmark/main/screencapture/screenshot-2025-12-27-01-12-07.png)
+- **Manager**: Tampermonkey (5.4.1)
+- **Browser**: Chrome 143.0.0.0
+- **Date**: 2025-12-27
+
+| API                                                | GM.\* (Support) | GM.\* (Pass) | GM\_\* (Support) | GM\_\* (Pass) |
+| :------------------------------------------------- | :-------------: | :----------: | :--------------: | :-----------: |
+| info                                               |       ✅        |     1/1      |        ✅        |      1/1      |
+| log                                                |       ✅        |     1/1      |        ✅        |      1/1      |
+| setValue / getValue                                |       ✅        |     2/2      |        ✅        |      2/2      |
+| deleteValue                                        |       ✅        |     1/1      |        ✅        |      1/1      |
+| listValues                                         |       ✅        |     1/1      |        ✅        |      1/1      |
+| setValues / getValues / deleteValues               |       ✅        |     1/1      |        ✅        |      1/1      |
+| addValueChangeListener / removeValueChangeListener |       ✅        |     1/1      |        ✅        |      1/1      |
+| addStyle                                           |       ✅        |     1/1      |        ✅        |      1/1      |
+| addElement                                         |       ✅        |     1/1      |        ✅        |      1/1      |
+| registerMenuCommand                                |       ✅        |     1/1      |        ✅        |      1/1      |
+| unregisterMenuCommand                              |       ✅        |     1/1      |        ✅        |      1/1      |
+| xmlHttpRequest                                     |       ✅        |     1/1      |        ✅        |      1/1      |
+| download                                           |       ✅        |     1/1      |        ✅        |      1/1      |
+| openInTab                                          |       ✅        |     1/1      |        ✅        |      1/1      |
+| setClipboard                                       |       ✅        |     1/1      |        ✅        |      1/1      |
+| notification                                       |       ✅        |     1/1      |        ✅        |      1/1      |
+| getResourceText                                    |       ✅        |     1/1      |        ✅        |      1/1      |
+| getResourceURL                                     |       ✅        |     1/1      |        ✅        |      1/1      |
+| getTab / saveTab / getTabs                         |       ✅        |     1/1      |        ✅        |      1/1      |
+| cookie                                             |       ✅        |     1/1      |        ✅        |      1/1      |
+| audio                                              |       ✅        |     1/1      |        ✅        |      1/1      |
+| webRequest (Deprecated)                            |       ✅        |     1/1      |        ✅        |      1/1      |
+| unsafeWindow                                       |       ✅        |     1/1      |        -         |       -       |
+| window.onurlchange                                 |       ✅        |     1/1      |        -         |       -       |
+| window.close                                       |       ✅        |     1/1      |        -         |       -       |
+| window.focus                                       |       ✅        |     1/1      |        -         |       -       |
 
 ### Violentmonkey (v2.31.0)
 
-![screencapture](https://wsrv.nl/?w=600&url=https://raw.githubusercontent.com/utags/userscript-api-benchmark/main/screencapture/screenshot-2025-12-27-01-14-04.png)
+- **Manager**: Violentmonkey (2.31.0)
+- **Browser**: Firefox 146.0
+- **Date**: 2025-12-27
+
+| API                                                | GM.\* (Support) | GM.\* (Pass) | GM\_\* (Support) | GM\_\* (Pass) |
+| :------------------------------------------------- | :-------------: | :----------: | :--------------: | :-----------: |
+| info                                               |       ✅        |     1/1      |        ✅        |      1/1      |
+| log                                                |       ✅        |     1/1      |        ✅        |      1/1      |
+| setValue / getValue                                |       ✅        |     2/2      |        ✅        |      2/2      |
+| deleteValue                                        |       ✅        |     1/1      |        ✅        |      1/1      |
+| listValues                                         |       ✅        |     1/1      |        ✅        |      1/1      |
+| setValues / getValues / deleteValues               |       ⚠️        |     0/1      |        ✅        |      1/1      |
+| addValueChangeListener / removeValueChangeListener |       ✅        |     1/1      |        ✅        |      1/1      |
+| addStyle                                           |       ✅        |     1/1      |        ✅        |      1/1      |
+| addElement                                         |       ✅        |     1/1      |        ✅        |      1/1      |
+| registerMenuCommand                                |       ✅        |     1/1      |        ✅        |      1/1      |
+| unregisterMenuCommand                              |       ✅        |     1/1      |        ✅        |      1/1      |
+| xmlHttpRequest                                     |       ✅        |     1/1      |        ✅        |      1/1      |
+| download                                           |       ✅        |     1/1      |        ✅        |      1/1      |
+| openInTab                                          |       ✅        |     1/1      |        ✅        |      1/1      |
+| setClipboard                                       |       ✅        |     1/1      |        ✅        |      1/1      |
+| notification                                       |       ✅        |     1/1      |        ✅        |      1/1      |
+| getResourceText                                    |       ✅        |     1/1      |        ✅        |      1/1      |
+| getResourceURL                                     |       ✅        |     1/1      |        ✅        |      1/1      |
+| getTab / saveTab / getTabs                         |       ❌        |     0/1      |        ❌        |      0/1      |
+| cookie                                             |       ❌        |     0/1      |        ❌        |      0/1      |
+| audio                                              |       ❌        |     0/1      |        ❌        |      0/1      |
+| webRequest (Deprecated)                            |       ❌        |     0/1      |        ❌        |      0/1      |
+| unsafeWindow                                       |       ✅        |     1/1      |        -         |       -       |
+| window.onurlchange                                 |       ❌        |     0/1      |        -         |       -       |
+| window.close                                       |       ✅        |     1/1      |        -         |       -       |
+| window.focus                                       |       ✅        |     1/1      |        -         |       -       |
 
 ### ScriptCat (v1.2.2)
 
-![screencapture](https://wsrv.nl/?w=600&url=https://raw.githubusercontent.com/utags/userscript-api-benchmark/main/screencapture/screenshot-2025-12-27-01-22-55.png)
+- **Manager**: ScriptCat (1.2.2)
+- **Browser**: Chrome 143.0.0.0
+- **Date**: 2025-12-27
+
+| API                                                | GM.\* (Support) | GM.\* (Pass) | GM\_\* (Support) | GM\_\* (Pass) |
+| :------------------------------------------------- | :-------------: | :----------: | :--------------: | :-----------: |
+| info                                               |       ✅        |     1/1      |        ✅        |      1/1      |
+| log                                                |       ✅        |     1/1      |        ✅        |      1/1      |
+| setValue / getValue                                |       ✅        |     2/2      |        ✅        |      2/2      |
+| deleteValue                                        |       ✅        |     1/1      |        ✅        |      1/1      |
+| listValues                                         |       ✅        |     1/1      |        ✅        |      1/1      |
+| setValues / getValues / deleteValues               |       ✅        |     1/1      |        ✅        |      1/1      |
+| addValueChangeListener / removeValueChangeListener |       ✅        |     1/1      |        ✅        |      1/1      |
+| addStyle                                           |       ✅        |     1/1      |        ✅        |      1/1      |
+| addElement                                         |       ✅        |     1/1      |        ✅        |      1/1      |
+| registerMenuCommand                                |       ✅        |     1/1      |        ✅        |      1/1      |
+| unregisterMenuCommand                              |       ✅        |     1/1      |        ✅        |      1/1      |
+| xmlHttpRequest                                     |       ✅        |     1/1      |        ✅        |      1/1      |
+| download                                           |       ✅        |     1/1      |        ✅        |      1/1      |
+| openInTab                                          |       ✅        |     1/1      |        ✅        |      1/1      |
+| setClipboard                                       |       ✅        |     1/1      |        ✅        |      1/1      |
+| notification                                       |       ✅        |     1/1      |        ✅        |      1/1      |
+| getResourceText                                    |       ✅        |     1/1      |        ✅        |      1/1      |
+| getResourceURL                                     |       ✅        |     1/1      |        ✅        |      1/1      |
+| getTab / saveTab / getTabs                         |       ✅        |     1/1      |        ✅        |      1/1      |
+| cookie                                             |       ✅        |     1/1      |        ✅        |      1/1      |
+| audio                                              |       ❌        |     0/1      |        ❌        |      0/1      |
+| webRequest (Deprecated)                            |       ❌        |     0/1      |        ❌        |      0/1      |
+| unsafeWindow                                       |       ✅        |     1/1      |        -         |       -       |
+| window.onurlchange                                 |       ❌        |     0/1      |        -         |       -       |
+| window.close                                       |       ✅        |     1/1      |        -         |       -       |
+| window.focus                                       |       ✅        |     1/1      |        -         |       -       |
 
 ### Userscripts (Safari) (v4.8.2)
 
-![screencapture](https://wsrv.nl/?w=600&url=https://raw.githubusercontent.com/utags/userscript-api-benchmark/main/screencapture/screenshot-2025-12-27-01-12-49.png)
+- **Manager**: Userscripts (4.8.2)
+- **Browser**: Safari 605.1.15
+- **Date**: 2025-12-27
+
+| API                                                | GM.\* (Support) | GM.\* (Pass) | GM\_\* (Support) | GM\_\* (Pass) |
+| :------------------------------------------------- | :-------------: | :----------: | :--------------: | :-----------: |
+| info                                               |       ✅        |     1/1      |        ✅        |      1/1      |
+| log                                                |       ❌        |     0/1      |        ❌        |      0/1      |
+| setValue / getValue                                |       ✅        |     2/2      |        ❌        |      0/2      |
+| deleteValue                                        |       ✅        |     1/1      |        ❌        |      0/1      |
+| listValues                                         |       ✅        |     1/1      |        ❌        |      0/1      |
+| setValues / getValues / deleteValues               |       ❌        |     0/1      |        ❌        |      0/1      |
+| addValueChangeListener / removeValueChangeListener |       ❌        |     0/1      |        ❌        |      0/1      |
+| addStyle                                           |       ✅        |     1/1      |        ❌        |      0/1      |
+| addElement                                         |       ❌        |     0/1      |        ❌        |      0/1      |
+| registerMenuCommand                                |       ❌        |     0/1      |        ❌        |      0/1      |
+| unregisterMenuCommand                              |       ❌        |     0/1      |        ❌        |      0/1      |
+| xmlHttpRequest                                     |       ✅        |     1/1      |        ✅        |      1/1      |
+| download                                           |       ❌        |     0/1      |        ❌        |      0/1      |
+| openInTab                                          |       ✅        |     1/1      |        ❌        |      0/1      |
+| setClipboard                                       |       ✅        |     1/1      |        ❌        |      0/1      |
+| notification                                       |       ❌        |     0/1      |        ❌        |      0/1      |
+| getResourceText                                    |       ❌        |     0/1      |        ❌        |      0/1      |
+| getResourceURL                                     |       ❌        |     0/1      |        ❌        |      0/1      |
+| getTab / saveTab / getTabs                         |       ❌        |     0/1      |        ❌        |      0/1      |
+| cookie                                             |       ❌        |     0/1      |        ❌        |      0/1      |
+| audio                                              |       ❌        |     0/1      |        ❌        |      0/1      |
+| webRequest (Deprecated)                            |       ❌        |     0/1      |        ❌        |      0/1      |
+| unsafeWindow                                       |       ❌        |     0/1      |        -         |       -       |
+| window.onurlchange                                 |       ❌        |     0/1      |        -         |       -       |
+| window.close                                       |       ✅        |     1/1      |        -         |       -       |
+| window.focus                                       |       ✅        |     1/1      |        -         |       -       |
 
 ### Stay (Safari) (v2.9.12)
 
-![screencapture](https://wsrv.nl/?w=600&url=https://raw.githubusercontent.com/utags/userscript-api-benchmark/main/screencapture/screenshot-2025-12-27-01-41-13.png)
+- **Manager**: tamp (2.9.12)
+- **Browser**: Safari 605.1.15
+- **Date**: 2025-12-27
+
+| API                                                | GM.\* (Support) | GM.\* (Pass) | GM\_\* (Support) | GM\_\* (Pass) |
+| :------------------------------------------------- | :-------------: | :----------: | :--------------: | :-----------: |
+| info                                               |       ✅        |     1/1      |        ✅        |      1/1      |
+| log                                                |       ✅        |     1/1      |        ✅        |      1/1      |
+| setValue / getValue                                |       ✅        |     2/2      |        ✅        |      2/2      |
+| deleteValue                                        |       ✅        |     1/1      |        ✅        |      1/1      |
+| listValues                                         |       ✅        |     1/1      |        ✅        |      1/1      |
+| setValues / getValues / deleteValues               |       ❌        |     0/1      |        ❌        |      0/1      |
+| addValueChangeListener / removeValueChangeListener |       ⚠️        |     0/1      |        ⚠️        |      0/1      |
+| addStyle                                           |       ✅        |     1/1      |        ✅        |      1/1      |
+| addElement                                         |       ✅        |     1/1      |        ✅        |      1/1      |
+| registerMenuCommand                                |       ✅        |     1/1      |        ✅        |      1/1      |
+| unregisterMenuCommand                              |       ✅        |     1/1      |        ✅        |      1/1      |
+| xmlHttpRequest                                     |       ✅        |     1/1      |        ✅        |      1/1      |
+| download                                           |       ❌        |     0/1      |        ✅        |      1/1      |
+| openInTab                                          |       ✅        |     1/1      |        ✅        |      1/1      |
+| setClipboard                                       |       ✅        |     1/1      |        ✅        |      1/1      |
+| notification                                       |       ✅        |     1/1      |        ✅        |      1/1      |
+| getResourceText                                    |       ❌        |     0/1      |        ✅        |      1/1      |
+| getResourceURL                                     |       ✅        |     1/1      |        ✅        |      1/1      |
+| getTab / saveTab / getTabs                         |       ✅        |     1/1      |        ✅        |      1/1      |
+| cookie                                             |       ✅        |     1/1      |        ✅        |      1/1      |
+| audio                                              |       ❌        |     0/1      |        ❌        |      0/1      |
+| webRequest (Deprecated)                            |       ❌        |     0/1      |        ❌        |      0/1      |
+| unsafeWindow                                       |       ❌        |     0/1      |        -         |       -       |
+| window.onurlchange                                 |       ❌        |     0/1      |        -         |       -       |
+| window.close                                       |       ✅        |     1/1      |        -         |       -       |
+| window.focus                                       |       ✅        |     1/1      |        -         |       -       |
 
 ### Greasemonkey (v4.13.0)
 
-![screencapture](https://wsrv.nl/?w=600&url=https://raw.githubusercontent.com/utags/userscript-api-benchmark/main/screencapture/screenshot-2025-12-27-01-13-20.png)
+- **Manager**: Greasemonkey (4.13)
+- **Browser**: Firefox 146.0
+- **Date**: 2025-12-27
+
+| API                                                | GM.\* (Support) | GM.\* (Pass) | GM\_\* (Support) | GM\_\* (Pass) |
+| :------------------------------------------------- | :-------------: | :----------: | :--------------: | :-----------: |
+| info                                               |       ✅        |     1/1      |        ✅        |      1/1      |
+| log                                                |       ❌        |     0/1      |        ❌        |      0/1      |
+| setValue / getValue                                |       ✅        |     2/2      |        ❌        |      0/2      |
+| deleteValue                                        |       ✅        |     1/1      |        ❌        |      0/1      |
+| listValues                                         |       ✅        |     1/1      |        ❌        |      0/1      |
+| setValues / getValues / deleteValues               |       ❌        |     0/1      |        ❌        |      0/1      |
+| addValueChangeListener / removeValueChangeListener |       ❌        |     0/1      |        ❌        |      0/1      |
+| addStyle                                           |       ❌        |     0/1      |        ❌        |      0/1      |
+| addElement                                         |       ❌        |     0/1      |        ❌        |      0/1      |
+| registerMenuCommand                                |       ✅        |     1/1      |        ❌        |      0/1      |
+| unregisterMenuCommand                              |       ❌        |     0/1      |        ❌        |      0/1      |
+| xmlHttpRequest                                     |       ✅        |     1/1      |        ❌        |      0/1      |
+| download                                           |       ❌        |     0/1      |        ❌        |      0/1      |
+| openInTab                                          |       ✅        |     1/1      |        ❌        |      0/1      |
+| setClipboard                                       |       ✅        |     1/1      |        ❌        |      0/1      |
+| notification                                       |       ✅        |     1/1      |        ❌        |      0/1      |
+| getResourceText                                    |       ❌        |     0/1      |        ❌        |      0/1      |
+| getResourceURL                                     |       ✅        |     1/1      |        ❌        |      0/1      |
+| getTab / saveTab / getTabs                         |       ❌        |     0/1      |        ❌        |      0/1      |
+| cookie                                             |       ❌        |     0/1      |        ❌        |      0/1      |
+| audio                                              |       ❌        |     0/1      |        ❌        |      0/1      |
+| webRequest (Deprecated)                            |       ❌        |     0/1      |        ❌        |      0/1      |
+| unsafeWindow                                       |       ❌        |     0/1      |        -         |       -       |
+| window.onurlchange                                 |       ❌        |     0/1      |        -         |       -       |
+| window.close                                       |       ✅        |     1/1      |        -         |       -       |
+| window.focus                                       |       ✅        |     1/1      |        -         |       -       |
 
 ## Project Info
 
