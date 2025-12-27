@@ -200,7 +200,7 @@ It is particularly useful for:
 | cookie                                             |       ✅        |     1/1      |        ✅        |      1/1      |
 | audio                                              |       ❌        |     0/1      |        ❌        |      0/1      |
 | webRequest (Deprecated)                            |       ❌        |     0/1      |        ❌        |      0/1      |
-| unsafeWindow                                       |       ❌        |     0/1      |        -         |       -       |
+| unsafeWindow                                       |       ✅        |     1/1      |        -         |       -       |
 | window.onurlchange                                 |       ❌        |     0/1      |        -         |       -       |
 | window.close                                       |       ✅        |     1/1      |        -         |       -       |
 | window.focus                                       |       ✅        |     1/1      |        -         |       -       |
@@ -235,7 +235,7 @@ It is particularly useful for:
 | cookie                                             |       ✅        |     1/1      |        ✅        |      1/1      |
 | audio                                              |       ❌        |     0/1      |        ❌        |      0/1      |
 | webRequest (Deprecated)                            |       ❌        |     0/1      |        ❌        |      0/1      |
-| unsafeWindow                                       |       ❌        |     0/1      |        -         |       -       |
+| unsafeWindow                                       |       ✅        |     1/1      |        -         |       -       |
 | window.onurlchange                                 |       ❌        |     0/1      |        -         |       -       |
 | window.close                                       |       ✅        |     1/1      |        -         |       -       |
 | window.focus                                       |       ✅        |     1/1      |        -         |       -       |
