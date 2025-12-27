@@ -12,7 +12,7 @@
 | deleteValue                                        |       ✅        |     1/1      |        ✅        |      1/1      |
 | listValues                                         |       ✅        |     1/1      |        ✅        |      1/1      |
 | setValues / getValues / deleteValues               |       ✅        |     1/1      |        ✅        |      1/1      |
-| addValueChangeListener / removeValueChangeListener |       ✅        |     1/1      |        ✅        |      1/1      |
+| addValueChangeListener / removeValueChangeListener |       ✅        |     5/5      |        ✅        |      5/5      |
 | addStyle                                           |       ✅        |     1/1      |        ✅        |      1/1      |
 | addElement                                         |       ✅        |     1/1      |        ✅        |      1/1      |
 | registerMenuCommand                                |       ✅        |     1/1      |        ✅        |      1/1      |

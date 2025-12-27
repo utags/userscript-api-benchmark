@@ -1,0 +1,17 @@
+{
+  "name": "userscript-api-benchmark",
+  "version": "0.1.2",
+  "description": "This script is a comprehensive benchmark tool designed to test the compatibility and accuracy of Userscript Manager APIs.",
+  "main": "userscript-api-benchmark.user.js",
+  "scripts": {
+    "format": "prettier --write .",
+    "merge-readmes": "node merge-readmes.js && pnpm run format",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Pipecraft",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.7.4"
+  }
+}
