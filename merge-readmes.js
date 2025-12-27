@@ -15,6 +15,7 @@ const sources = [
     heading: /^###\s*Userscripts\s*\(Safari\)/,
   },
   { file: 'stay-safari.md', heading: /^###\s*Stay\s*\(Safari\)/ },
+  { file: 'stay-chrome.md', heading: /^###\s*Stay\s*\(Chrome\)/ },
 ]
 
 function readBody(filePath) {
