@@ -2,7 +2,7 @@
 
 - **Manager**: Tampermonkey (5.4.1)
 - **Browser**: Chrome 143.0.0.0
-- **Date**: 2025-12-27
+- **Date**: 2025-12-29
 
 | API                                                | GM.\* (Support) | GM.\* (Pass) | GM\_\* (Support) | GM\_\* (Pass) |
 | :------------------------------------------------- | :-------------: | :----------: | :--------------: | :-----------: |
@@ -14,7 +14,7 @@
 | setValues / getValues / deleteValues               |       ✅        |     1/1      |        ✅        |      1/1      |
 | addValueChangeListener / removeValueChangeListener |       ✅        |     5/5      |        ✅        |      5/5      |
 | addStyle                                           |       ✅        |     1/1      |        ✅        |      1/1      |
-| addElement                                         |       ✅        |     1/1      |        ✅        |      1/1      |
+| addElement                                         |       ✅        |     6/6      |        ✅        |      6/6      |
 | registerMenuCommand                                |       ✅        |     1/1      |        ✅        |      1/1      |
 | unregisterMenuCommand                              |       ✅        |     1/1      |        ✅        |      1/1      |
 | xmlHttpRequest                                     |       ✅        |     1/1      |        ✅        |      1/1      |

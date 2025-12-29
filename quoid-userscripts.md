@@ -14,7 +14,7 @@
 | setValues / getValues / deleteValues               |       ❌        |     0/1      |        ❌        |      0/1      |
 | addValueChangeListener / removeValueChangeListener |       ❌        |     0/5      |        ❌        |      0/5      |
 | addStyle                                           |       ⚠️        |     0/1      |        ❌        |      0/1      |
-| addElement                                         |       ❌        |     0/1      |        ❌        |      0/1      |
+| addElement                                         |       ❌        |     0/6      |        ❌        |      0/6      |
 | registerMenuCommand                                |       ❌        |     0/1      |        ❌        |      0/1      |
 | unregisterMenuCommand                              |       ❌        |     0/1      |        ❌        |      0/1      |
 | xmlHttpRequest                                     |       ✅        |     1/1      |        ✅        |      1/1      |
