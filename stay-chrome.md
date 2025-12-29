@@ -2,7 +2,7 @@
 
 - **Manager**: extensions/stay (0.1)
 - **Browser**: Chrome 143.0.0.0
-- **Date**: 2025-12-27
+- **Date**: 2025-12-29
 
 | API                                                | GM.\* (Support) | GM.\* (Pass) | GM\_\* (Support) | GM\_\* (Pass) |
 | :------------------------------------------------- | :-------------: | :----------: | :--------------: | :-----------: |
@@ -20,7 +20,7 @@
 | xmlHttpRequest                                     |       ✅        |     1/1      |        ✅        |      1/1      |
 | download                                           |       ❌        |     0/1      |        ✅        |      1/1      |
 | openInTab                                          |       ✅        |     1/1      |        ✅        |      1/1      |
-| setClipboard                                       |       ⚠️        |     0/1      |        ✅        |      1/1      |
+| setClipboard                                       |       ✅        |     1/1      |        ✅        |      1/1      |
 | notification                                       |       ✅        |     1/1      |        ✅        |      1/1      |
 | getResourceText                                    |       ❌        |     0/1      |        ✅        |      1/1      |
 | getResourceURL                                     |       ✅        |     1/1      |        ✅        |      1/1      |

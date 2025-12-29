@@ -2,7 +2,7 @@
 
 - **Manager**: Userscripts (4.8.2)
 - **Browser**: Safari 605.1.15
-- **Date**: 2025-12-27
+- **Date**: 2025-12-29
 
 | API                                                | GM.\* (Support) | GM.\* (Pass) | GM\_\* (Support) | GM\_\* (Pass) |
 | :------------------------------------------------- | :-------------: | :----------: | :--------------: | :-----------: |
@@ -13,7 +13,7 @@
 | listValues                                         |       ✅        |     1/1      |        ❌        |      0/1      |
 | setValues / getValues / deleteValues               |       ❌        |     0/1      |        ❌        |      0/1      |
 | addValueChangeListener / removeValueChangeListener |       ❌        |     0/5      |        ❌        |      0/5      |
-| addStyle                                           |       ✅        |     1/1      |        ❌        |      0/1      |
+| addStyle                                           |       ⚠️        |     0/1      |        ❌        |      0/1      |
 | addElement                                         |       ❌        |     0/1      |        ❌        |      0/1      |
 | registerMenuCommand                                |       ❌        |     0/1      |        ❌        |      0/1      |
 | unregisterMenuCommand                              |       ❌        |     0/1      |        ❌        |      0/1      |
