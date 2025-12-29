@@ -30,7 +30,7 @@ It is particularly useful for:
 
 ## Benchmark Results
 
-### Tampermonkey (v5.4.1)
+### Tampermonkey
 
 - **Manager**: Tampermonkey (5.4.1)
 - **Browser**: Chrome 143.0.0.0
@@ -65,7 +65,7 @@ It is particularly useful for:
 | window.close                                       |       ✅        |     1/1      |        -         |       -       |
 | window.focus                                       |       ✅        |     1/1      |        -         |       -       |
 
-### Violentmonkey (v2.31.0)
+### Violentmonkey
 
 - **Manager**: Violentmonkey (2.31.0)
 - **Browser**: Firefox 146.0
@@ -100,7 +100,7 @@ It is particularly useful for:
 | window.close                                       |       ✅        |     1/1      |        -         |       -       |
 | window.focus                                       |       ✅        |     1/1      |        -         |       -       |
 
-### ScriptCat (v1.2.2)
+### ScriptCat
 
 - **Manager**: ScriptCat (1.2.3)
 - **Browser**: Chrome 143.0.0.0
@@ -135,7 +135,7 @@ It is particularly useful for:
 | window.close                                       |       ✅        |     1/1      |        -         |       -       |
 | window.focus                                       |       ✅        |     1/1      |        -         |       -       |
 
-### Userscripts (Safari) (v4.8.2)
+### Userscripts (Safari)
 
 - **Manager**: Userscripts (4.8.2)
 - **Browser**: Safari 605.1.15
@@ -170,7 +170,7 @@ It is particularly useful for:
 | window.close                                       |       ✅        |     1/1      |        -         |       -       |
 | window.focus                                       |       ✅        |     1/1      |        -         |       -       |
 
-### Stay (Safari) (v2.9.12)
+### Stay (Safari)
 
 - **Manager**: tamp (2.9.12)
 - **Browser**: Safari 605.1.15
@@ -240,7 +240,7 @@ It is particularly useful for:
 | window.close                                       |       ✅        |     1/1      |        -         |       -       |
 | window.focus                                       |       ✅        |     1/1      |        -         |       -       |
 
-### Greasemonkey (v4.13.0)
+### Greasemonkey
 
 - **Manager**: Greasemonkey (4.13)
 - **Browser**: Firefox 146.0
@@ -279,11 +279,15 @@ It is particularly useful for:
 
 ## Project Info
 
-- **Repository**: [https://github.com/utags/userscripts](https://github.com/utags/userscripts)
-- **Issues**: [https://github.com/utags/userscripts/issues](https://github.com/utags/userscripts/issues)
+- **Repository**: [https://github.com/utags/userscript-api-benchmark](https://github.com/utags/userscript-api-benchmark)
+- **Issues**: [https://github.com/utags/userscript-api-benchmark/issues](https://github.com/utags/userscript-api-benchmark/issues)
 - **License**: MIT
 
 ## Changelog
+
+### 0.1.5
+
+- Add `addStyle` and `addElement` test cases.
 
 ### 0.1.1
 

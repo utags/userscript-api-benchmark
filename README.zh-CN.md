@@ -30,7 +30,7 @@
 
 ## 测试结果
 
-### Tampermonkey (v5.4.1)
+### Tampermonkey
 
 - **Manager**: Tampermonkey (5.4.1)
 - **Browser**: Chrome 143.0.0.0
@@ -65,7 +65,7 @@
 | window.close                                       |       ✅        |     1/1      |        -         |       -       |
 | window.focus                                       |       ✅        |     1/1      |        -         |       -       |
 
-### Violentmonkey (v2.31.0)
+### Violentmonkey
 
 - **Manager**: Violentmonkey (2.31.0)
 - **Browser**: Firefox 146.0
@@ -100,7 +100,7 @@
 | window.close                                       |       ✅        |     1/1      |        -         |       -       |
 | window.focus                                       |       ✅        |     1/1      |        -         |       -       |
 
-### ScriptCat (v1.2.2)
+### ScriptCat
 
 - **Manager**: ScriptCat (1.2.3)
 - **Browser**: Chrome 143.0.0.0
@@ -135,7 +135,7 @@
 | window.close                                       |       ✅        |     1/1      |        -         |       -       |
 | window.focus                                       |       ✅        |     1/1      |        -         |       -       |
 
-### Userscripts (Safari) (v4.8.2)
+### Userscripts (Safari)
 
 - **Manager**: Userscripts (4.8.2)
 - **Browser**: Safari 605.1.15
@@ -170,7 +170,7 @@
 | window.close                                       |       ✅        |     1/1      |        -         |       -       |
 | window.focus                                       |       ✅        |     1/1      |        -         |       -       |
 
-### Stay (Safari) (v2.9.12)
+### Stay (Safari)
 
 - **Manager**: tamp (2.9.12)
 - **Browser**: Safari 605.1.15
@@ -240,7 +240,7 @@
 | window.close                                       |       ✅        |     1/1      |        -         |       -       |
 | window.focus                                       |       ✅        |     1/1      |        -         |       -       |
 
-### Greasemonkey (v4.13.0)
+### Greasemonkey
 
 - **Manager**: Greasemonkey (4.13)
 - **Browser**: Firefox 146.0
@@ -279,11 +279,15 @@
 
 ## 项目信息
 
-- **代码仓库**: [https://github.com/utags/userscripts](https://github.com/utags/userscripts)
-- **问题反馈**: [https://github.com/utags/userscripts/issues](https://github.com/utags/userscripts/issues)
+- **代码仓库**: [https://github.com/utags/userscript-api-benchmark](https://github.com/utags/userscript-api-benchmark)
+- **问题反馈**: [https://github.com/utags/userscript-api-benchmark/issues](https://github.com/utags/userscript-api-benchmark/issues)
 - **许可证**: MIT
 
 ## 更新日志
+
+### 0.1.5
+
+- 添加 `addStyle` 和 `addElement` 测试用例。
 
 ### 0.1.1
 
