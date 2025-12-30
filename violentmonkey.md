@@ -2,13 +2,13 @@
 
 - **Manager**: Violentmonkey (2.31.0)
 - **Browser**: Firefox 146.0
-- **Date**: 2025-12-29
+- **Date**: 2025-12-30
 
 | API                                                | GM.\* (Support) | GM.\* (Pass) | GM\_\* (Support) | GM\_\* (Pass) |
 | :------------------------------------------------- | :-------------: | :----------: | :--------------: | :-----------: |
 | info                                               |       ✅        |     1/1      |        ✅        |      1/1      |
 | log                                                |       ✅        |     1/1      |        ✅        |      1/1      |
-| setValue / getValue                                |       ✅        |     2/2      |        ✅        |      2/2      |
+| setValue / getValue                                |       ✅        |     3/3      |        ✅        |      3/3      |
 | deleteValue                                        |       ✅        |     1/1      |        ✅        |      1/1      |
 | listValues                                         |       ✅        |     1/1      |        ✅        |      1/1      |
 | setValues / getValues / deleteValues               |       ✅        |     1/1      |        ✅        |      1/1      |
