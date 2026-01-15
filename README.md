@@ -28,6 +28,10 @@ It is particularly useful for:
 4. Click on **"Run Benchmark"**.
 5. A table will appear overlaying the page with the test results.
 
+- Install link: https://github.com/utags/userscript-api-benchmark/raw/refs/heads/main/userscript-api-benchmark.user.js
+- Copy results: Click "Copy" to get results in Markdown format.
+- Submit results: https://github.com/utags/userscript-api-benchmark/issues
+
 ## API Docs
 
 - Tampermonkey: https://www.tampermonkey.net/documentation.php

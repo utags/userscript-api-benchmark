@@ -28,6 +28,10 @@
 4. 点击 **"Run Benchmark"**（运行基准测试）。
 5. 页面上将出现一个覆盖层，显示详细的测试结果表。
 
+- 安装链接：https://github.com/utags/userscript-api-benchmark/raw/refs/heads/main/userscript-api-benchmark.user.js
+- 复制结果：点击“Copy”即可获取 Markdown 格式结果。
+- 提交结果：欢迎提交至 https://github.com/utags/userscript-api-benchmark/issues
+
 ## API 文档
 
 - Tampermonkey: https://www.tampermonkey.net/documentation.php
