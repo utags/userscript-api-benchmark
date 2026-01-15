@@ -1,0 +1,26 @@
+name: Submit Benchmark Results
+description: Submit your Userscript Manager benchmark results (Markdown)
+title: '[Result] Submit Benchmark Results'
+labels:
+  - benchmark-results
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks! In the overlay, click "Copy" and paste the full Markdown below. The copied content already includes manager, version, browser and date.
+        Install link (reference): https://github.com/utags/userscript-api-benchmark/raw/refs/heads/main/userscript-api-benchmark.user.js
+  - type: textarea
+    id: markdown_results
+    attributes:
+      label: Results (Markdown)
+      description: Click "Copy" in the overlay, paste the full Markdown
+      render: markdown
+      placeholder: Paste the full Markdown copied from "Copy"
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes (optional)
+      placeholder: Add environment info or anomalies

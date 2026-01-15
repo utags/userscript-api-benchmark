@@ -1,0 +1,26 @@
+name: 提交测试结果
+description: 提交你的用户脚本管理器基准测试结果（Markdown）
+title: '[结果] 提交测试结果'
+labels:
+  - benchmark-results
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢提交测试结果！请在页面覆盖层点击“Copy”，将完整的 Markdown 结果粘贴到下方文本框即可。结果中已包含脚本管理器、版本、浏览器与日期信息。
+        安装链接（参考）：https://github.com/utags/userscript-api-benchmark/raw/refs/heads/main/userscript-api-benchmark.user.js
+  - type: textarea
+    id: markdown_results
+    attributes:
+      label: 测试结果（Markdown）
+      description: 从覆盖层点击“Copy”，粘贴完整 Markdown 结果
+      render: markdown
+      placeholder: 粘贴从“Copy”复制的完整 Markdown 内容
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: 备注（可选）
+      placeholder: 可补充环境信息或异常说明
